@@ -36,7 +36,7 @@ class Dev(Colaborador):
 
     def exibir(self):
         super().exibir()
-        print(f'     Cargo de {self.cargo} na squad {self.squad}\n')
+        print(f'     Cargo de {self.cargo} na squad {self.squad.nome}\n')
 
 print('\n-=-=-=-=-=-=-=-=-=-=-=-=-=-Sky.One Solutions-=-=-=-=-=-=-=-=-=-=-=-=-=-')
 print('Bem vindo ao sistema de cadastro de squads!\n')
